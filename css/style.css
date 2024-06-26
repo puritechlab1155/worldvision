@@ -154,7 +154,7 @@
     #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
     
     /* main */
-    #main .container .fix_btns .btns { right: 20px; bottom: 414px; gap: 12px; }
+    #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
     #main .container .fix_btns .btns div { width: 21px; height: 21px; }
     #main .container .fix_btns .btns div img { width: 11px; }
     #main .container .fix_btns .btns .share { padding: 3px 5px; }
