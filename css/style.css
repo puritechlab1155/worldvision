@@ -109,7 +109,7 @@
 
 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
 
-#main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 255px; display: flex; flex-direction: column; gap: 34px; }
+#main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
 #main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
 #main .container .fix_btns .btns .share { padding: 10px 17px; }
 #main .container .fix_btns .btns .top { padding: 12px 15px; }
