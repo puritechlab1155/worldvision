@@ -98,26 +98,28 @@
 
 /* main */
 #main { width: 100%; }
-#main #cover { height: 573px; position: relative; }
+#main #cover { width: 100%; height: 573px; position: relative; }
+#main #cover .outer_box { width: 100%; background: url(../images/web03/cover_outer.png) no-repeat; background-size: cover; background-position: center; }
+#main #cover .cover_img_box { width: 100%; max-width: 1200px; margin: 0 auto; }
 #main #cover .cover_img_box img { width: 100%; }
-#main #cover .cover_text { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
+#main #cover .cover_text { width: 100%; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
 #main #cover .cover_text .text { font-weight: 500; font-size: 32px; line-height: 42px; letter-spacing: -0.02em; color: #fff; }
-#main #cover .cover_text .img_box { margin: 9px auto 10px; }
+#main #cover .cover_text .img_box { display: flex; justify-content: center; margin: 9px auto 10px; }
 #main #cover .cover_text .title { font-weight: 500; font-size: 19px; line-height: 29px; color: #f56400; }
 
 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
 
-#main .container .fix_btns { width: 100%; position: relative; }
-#main .container .fix_btns .btns { position: fixed; right: 8px; bottom: 17px; }
-#main .container .fix_btns button {  }
+#main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 255px; display: flex; flex-direction: column; gap: 34px; }
+#main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
+#main .container .fix_btns .btns .share { padding: 10px 17px; }
+#main .container .fix_btns .btns .top { padding: 12px 15px; }
 
 #main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
 #main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #f56400; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #f56400; }
 #main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #f56400; }
 
-#main .container .content { display: flex; flex-direction: column; gap: 150px; }
+#main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; }
 
-#main .container .content { font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; }
 #main .container .content .grid_box { display: flex; }
 #main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #f56400; }
 #main .container .content .grid_box .conts { width: 100%; max-width: 860px; }
@@ -130,23 +132,61 @@
 
 #main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
 
-#main .page_bottom { width: 100%; border-top: 1px solid #000; height: 103px; }
-#main .container .page_btns { display: flex; width: 358px; height: 100%; justify-content: space-between; margin: 0 auto; }
+#main .page_bottom { width: 100%; border-top: 1px solid #000; }
+#main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
 
 @media only all and (max-width: 767px) {
+    /* head */
     #head_sec { height: 44px; }
     #head_sec .inner_head .logo_box { height: 21px; }
     #head_sec .inner_head .logo_box h1 img { height: 21px; }
     #head_sec .inner_head #menu .menu_btn { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
 
     #main #vid_cover #video_box { height: calc(100vh - 44px); }
+    #main #vid_cover #video_box.pc { display: none; }
     #main #vid_cover #video_box.mobile { display: block; }
     #main #vid_cover #video_box video { object-fit: fill; }
 
     #main #vid_cover .container .page_move { left: 20px; }
     #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
     
+    /* main */
+    #main .container .fix_btns .btns { right: 20px; bottom: 414px; gap: 12px; }
+    #main .container .fix_btns .btns div { width: 21px; height: 21px; }
+    #main .container .fix_btns .btns div img { width: 11px; }
+    #main .container .fix_btns .btns .share { padding: 3px 5px; }
+    #main .container .fix_btns .btns .top { padding: 5px; }
+
+    #main { width: 100%; }
+    #main #cover { height: 211px; }
+    #main #cover .outer_box { width: 100%; background: none; }
+    #main #cover .cover_text .text { font-size: 18px; line-height: 28px; }
+    #main #cover .cover_text .img_box { margin: 5px auto 0; }
+    #main #cover .cover_text .title { font-size: 12px; line-height: 22px; color: #f56400; }
+
+    #main .container .intro { margin: 5px auto 80px; gap: 80px; justify-content: center; align-items: center; }
+    #main .container .intro .writer_info { width: fit-content; flex-direction: column; gap: 0; padding: 5px 20px; font-size: 8px; line-height: 18px; }
+    #main .container .intro .intro_text { font-size: 12px; line-height: 22px; }
+
+    #main .container .content { gap: 80px; }
+    #main .container .content .grid_box { flex-direction: column; gap: 10px; }
+    #main .container .content .grid_box .side { font-weight: 500; font-size: 12px; line-height: 22px; text-align: center; }
+    #main .container .content .grid_box .conts p { font-weight: 300; font-size: 12px; line-height: 22px; }
+    #main .container .content .grid_box .conts .img_box img { width: 100%; }
+
+    #main .container .content .section01 .grid_box .conts .img_box { margin: 10px 0 120px; }
+    #main .container .content .section02 .grid_box .conts .img_box { margin-top: 10px; }
+    #main .container .content .section03 .grid_box .conts .img_box { margin-top: 10px; }
+    #main .container .content .section04 .grid_box .conts .img_box { margin-top: 10px; }
+
+    #main .container .bottom_text img { width: 100%; }
+
+    #main .container .page_btns { height: 33px; gap: 81px; }
+    #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
+    #main .container .page_btns div a span img { width: 11px; height: 15px; }
+    #main .container .page_btns .prev a span { margin-right: 15px; }
+    #main .container .page_btns .next a span { margin-left: 15px; }
 }
