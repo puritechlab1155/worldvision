@@ -1,0 +1,16 @@
+
+/* .pc { display: block; }
+.tablet { display: none !important; }
+.mobile { display: none !important; }
+
+@media only all and (max-width: 1279px) {
+    .pc { display: none !important; }
+    .tablet { display: block; }
+    .mobile { display: none !important; }
+}
+
+@media only all and (max-width: 767px) {
+    .pc { display: none !important; }
+    .tablet { display: none !important; }
+    .mobile { display: block; }
+} */
