@@ -18,9 +18,9 @@
 #main #vid_cover #video_box { width: 100vw; }
 #main #vid_cover #video_box.mobile { display: none; }
 #main #vid_cover #video_box video { width: 100%; height: 100%; }
-#main #vid_cover .bg_black { width: 100%; height: 50px; background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5)); position: absolute; left: 0; bottom: 0; }
+#main #vid_cover .bg_black { width: 100%; height: 50px; background: linear-gradient(to top, transparent 5%, rgba(0, 0, 0, 0.5)); position: absolute; left: 0; top: 0; }
 #main #vid_cover .container { position: relative; }
-#main #vid_cover .container .page_move { position: absolute; left: 0; bottom: -30px; z-index: 10; }
+#main #vid_cover .container .page_move { position: absolute; left: 0; top: 10px; z-index: 10; }
 #main #vid_cover .container .page_move a { color: #fff; border-radius: 35px; border: 2px solid #fff; box-sizing: border-box; font-weight: 700; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; padding: 5px; text-align: center; display: block; width: 81px; height: 40px; }
 
 /* mouse */
@@ -28,7 +28,7 @@
     position: absolute;
     margin: auto;
     left: 50%;
-    bottom: 20px;
+    bottom: 50px;
     -webkit-transform: translateX(-50%);
     z-index: 9;
 }
@@ -111,44 +111,30 @@
 #main .container .fix_btns .btns { position: fixed; right: 8px; bottom: 17px; }
 #main .container .fix_btns button {  }
 
-#main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; background-color: antiquewhite; }
-#main .container .intro .writer_info { height: 38px; border-radius: 30px; text-align: center; }
-#main .container .intro .intro_text { height: 87px; text-align: center; }
+#main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
+#main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #f56400; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #f56400; }
+#main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #f56400; }
 
 #main .container .content { display: flex; flex-direction: column; gap: 150px; }
 
-#main .container .content .section01 {  }
-#main .container .content .section01 .grid_box { display: grid; grid-template-columns: 1fr 860px; }
-#main .container .content .section01 .grid_box .side { background-color: aqua; }
-#main .container .content .section01 .grid_box .conts { background-color: aquamarine; }
-#main .container .content .section01 .grid_box .conts p {  }
-#main .container .content .section01 .grid_box .conts .img_box {  }
+#main .container .content { font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; }
+#main .container .content .grid_box { display: flex; }
+#main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #f56400; }
+#main .container .content .grid_box .conts { width: 100%; max-width: 860px; }
+#main .container .content .grid_box .conts p { font-weight: 400; font-size: 18px; line-height: 28px; }
 
-#main .container .content .section02 {  }
-#main .container .content .section02 .grid_box { display: grid; grid-template-columns: 1fr 860px; }
-#main .container .content .section02 .grid_box .side { background-color: aqua; }
-#main .container .content .section02 .grid_box .conts { background-color: aquamarine; }
-#main .container .content .section02 .grid_box .conts p {  }
-#main .container .content .section02 .grid_box .conts .img_box {  }
+#main .container .content .section01 .grid_box .conts .img_box { margin: 30px 0; }
+#main .container .content .section02 .grid_box .conts .img_box { margin-top: 30px; }
+#main .container .content .section03 .grid_box .conts .img_box { margin-top: 30px; }
+#main .container .content .section04 .grid_box .conts .img_box { margin-top: 30px; }
 
-#main .container .content .section03 {  }
-#main .container .content .section03 .grid_box { display: grid; grid-template-columns: 1fr 860px; }
-#main .container .content .section03 .grid_box .side { background-color: aqua; }
-#main .container .content .section03 .grid_box .conts { background-color: aquamarine; }
-#main .container .content .section03 .grid_box .conts p {  }
-#main .container .content .section03 .grid_box .conts .img_box {  }
-
-#main .container .content .section04 {  }
-#main .container .content .section04 .grid_box { display: grid; grid-template-columns: 1fr 860px; }
-#main .container .content .section04 .grid_box .side { background-color: aqua; }
-#main .container .content .section04 .grid_box .conts { background-color: aquamarine; }
-#main .container .content .section04 .grid_box .conts p {  }
-#main .container .content .section04 .grid_box .conts .img_box {  }
-
-#main .container .bottom_text { height: 206px; text-align: center; margin: 150px auto 95px; background-color: azure; }
+#main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
 
 #main .page_bottom { width: 100%; border-top: 1px solid #000; height: 103px; }
 #main .container .page_btns { display: flex; width: 358px; height: 100%; justify-content: space-between; margin: 0 auto; }
+#main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
+#main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
+#main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
 
 @media only all and (max-width: 767px) {
     #head_sec { height: 44px; }
@@ -160,11 +146,7 @@
     #main #vid_cover #video_box.mobile { display: block; }
     #main #vid_cover #video_box video { object-fit: fill; }
 
-    #main #vid_cover .container .page_move { left: 20px; bottom: -10px; }
+    #main #vid_cover .container .page_move { left: 20px; }
     #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
-
-    #vid_cover .mouse-wrap {
-        bottom: 45px;
-    }
     
 }
