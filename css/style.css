@@ -13,14 +13,15 @@
 #head_sec .inner_head #menu .menu_btn { color: #fff; width: 81px; height: 40px; border-radius: 35px; border: 2px solid #fff; box-sizing: border-box; font-weight: 700; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; padding: 5px; text-align: center; }
 
 /* video */
-#main #vid_cover { width: 100vw; position: relative; }
-#main #vid_cover #video_box { width: 100vw; }
-#main #vid_cover #video_box.mobile { display: none; }
-#main #vid_cover #video_box video { width: 100%; height: 100%; }
-#main #vid_cover .bg_black { width: 100%; height: 50px; background: linear-gradient(to top, transparent 5%, rgba(0, 0, 0, 0.5)); position: absolute; left: 0; top: 0; }
-#main #vid_cover .container { position: relative; }
-#main #vid_cover .container .page_move { position: absolute; left: 0; top: 10px; z-index: 10; }
-#main #vid_cover .container .page_move a { color: #fff; border-radius: 35px; border: 2px solid #fff; box-sizing: border-box; font-weight: 700; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; padding: 5px; text-align: center; display: block; width: 81px; height: 40px; }
+.main_idx #main { width: 100%; }
+.main_idx #main #vid_cover { width: 100vw; position: relative; }
+.main_idx #main #vid_cover #video_box { width: 100vw; }
+.main_idx #main #vid_cover #video_box.mobile { display: none; }
+.main_idx #main #vid_cover #video_box video { width: 100%; height: 100%; }
+.main_idx #main #vid_cover .bg_black { width: 100%; height: 50px; background: linear-gradient(to top, transparent 5%, rgba(0, 0, 0, 0.5)); position: absolute; left: 0; top: 0; }
+.main_idx #main #vid_cover .container { position: relative; }
+.main_idx #main #vid_cover .container .page_move { position: absolute; left: 0; top: 10px; z-index: 10; }
+.main_idx #main #vid_cover .container .page_move a { color: #fff; border-radius: 35px; border: 2px solid #fff; box-sizing: border-box; font-weight: 700; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; padding: 5px; text-align: center; display: block; width: 81px; height: 40px; }
 
 /* mouse */
 #vid_cover .mouse-wrap {
@@ -95,122 +96,165 @@
     }
 }
 
-/* main */
-#main { width: 100%; position: relative; }
-
-#main .link_frame { width: 100%; position: absolute; left: 15px; top: 17px; z-index: 11; font-family: 'Pretendard'; color: #fff; display: flex; flex-direction: column; gap: 12px; }
-#main .link_frame a { display: block; font-size: 17px; font-weight: 700; text-decoration: underline; margin-bottom: 10px; }
-#main .link_frame span { font-weight: 400; font-size: 17px; }
-
-#main .main_text_img { width: 95%; position: absolute; left: 50%; bottom: 2px; transform: translateX(-50%); }
-#main .main_text_img .vol { text-align: right; margin-bottom: 10px; font-size: 17px; font-family: 'Pretendard'; font-weight: 800; color: #f87513; }
-#main .main_text_img img { width: 100%; }
-
-#main .special_story { position: absolute; right: 36px; top: 15px; }
-#main .special_story .text { font-family: 'Pretendard'; font-size: 17px; line-height: 20px; font-weight: 800; color: #fff; }
-#main .special_story .img_box { margin-top: -50px; }
-#main .special_story .img_box img { width: 100%; }
-
-#main #cover { width: 100%; height: 573px; position: relative; }
-#main #cover .outer_box { width: 100%; background: url(../images/web03/cover_outer.png) no-repeat; background-size: cover; background-position: center; }
-#main #cover .cover_img_box { width: 100%; max-width: 1200px; margin: 0 auto; }
-#main #cover .cover_img_box img { width: 100%; }
-#main #cover .cover_text { width: 100%; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
-#main #cover .cover_text .text { font-weight: 500; font-size: 32px; line-height: 42px; letter-spacing: -0.02em; color: #fff; }
-#main #cover .cover_text .img_box { display: flex; justify-content: center; margin: 9px auto 10px; }
-#main #cover .cover_text .title { font-weight: 500; font-size: 19px; line-height: 29px; color: #f56400; }
-
-#main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
-
-#main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
-#main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
-#main .container .fix_btns .btns .share { padding: 10px 17px; }
-#main .container .fix_btns .btns .top { padding: 12px 15px; }
-
-#main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
-#main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #f56400; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #f56400; }
-#main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #f56400; }
-
-#main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; }
-
-#main .container .content .grid_box { display: flex; }
-#main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #f56400; }
-#main .container .content .grid_box .conts { width: 100%; max-width: 860px; }
-#main .container .content .grid_box .conts p { font-weight: 400; font-size: 18px; line-height: 28px; }
-
-#main .container .content .section01 .grid_box .conts .img_box { margin: 30px 0; }
-#main .container .content .section02 .grid_box .conts .img_box { margin-top: 30px; }
-#main .container .content .section03 .grid_box .conts .img_box { margin-top: 30px; }
-#main .container .content .section04 .grid_box .conts .img_box { margin-top: 30px; }
-
-#main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
-
-#main .page_bottom { width: 100%; border-top: 1px solid #000; }
-#main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
-#main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
-#main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
-#main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
-
 @media only all and (max-width: 767px) {
-    /* head */
     #head_sec { height: 44px; }
     #head_sec .inner_head .logo_box { height: 21px; }
     #head_sec .inner_head .logo_box h1 img { height: 21px; }
     #head_sec .inner_head #menu .menu_btn { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
 
-    #main #vid_cover #video_box { height: calc(100vh - 44px); }
-    #main #vid_cover #video_box.pc { display: none; }
-    #main #vid_cover #video_box.mobile { display: block; }
-    #main #vid_cover #video_box video { object-fit: fill; }
+    .main_idx #main #vid_cover #video_box { height: calc(100vh - 44px); }
+    .main_idx #main #vid_cover #video_box.pc { display: none; }
+    .main_idx #main #vid_cover #video_box.mobile { display: block; }
+    .main_idx #main #vid_cover #video_box video { object-fit: fill; }
 
-    #main #vid_cover .container .page_move { left: 20px; }
-    #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
+    .main_idx #main #vid_cover .container .page_move { left: 20px; }
+    .main_idx #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
+}
 
-    #main .link_frame { left: 11px; top: 143px; }
+.main_idx #main { width: 100%; position: relative; }
 
-    #main .main_text_img { width: 100%; left: 0; top: 0; transform: translateX(0); }
-    #main .main_text_img .vol { margin-top: 10px; margin-right: 7px; }
-    #main .main_text_img img { width: 100%; }
+.main_idx #main .link_frame { width: 100%; position: absolute; left: 15px; top: 17px; z-index: 11; font-family: 'Pretendard'; color: #fff; display: flex; flex-direction: column; gap: 12px; }
+.main_idx #main .link_frame a { display: block; font-size: 17px; font-weight: 700; text-decoration: underline; margin-bottom: 10px; }
+.main_idx #main .link_frame span { font-weight: 400; font-size: 17px; }
 
-    #main .special_story { right: 5px; top: 100%; transform: translateY(-120%); display: flex; flex-direction: column; align-items: flex-end; }
-    #main .special_story .text { margin: 17px 12px 0 0; }
-    #main .special_story .img_box { margin-top: 0; }
-    #main .special_story .img_box img { width: 100%; }
+.main_idx #main .main_text_img { width: 95%; position: absolute; left: 50%; bottom: 2px; transform: translateX(-50%); }
+.main_idx #main .main_text_img .vol { text-align: right; margin-bottom: 10px; font-size: 17px; font-family: 'Pretendard'; font-weight: 800; color: #f87513; }
+.main_idx #main .main_text_img img { width: 100%; }
+
+.main_idx #main .special_story { position: absolute; right: 36px; top: 15px; }
+.main_idx #main .special_story .text { font-family: 'Pretendard'; font-size: 17px; line-height: 20px; font-weight: 800; color: #fff; }
+.main_idx #main .special_story .img_box { margin-top: -50px; }
+.main_idx #main .special_story .img_box img { width: 100%; }
+@media only all and (max-width: 767px) {
+    .main_idx #main .link_frame { left: 11px; top: 143px; }
+
+    .main_idx #main .main_text_img { width: 100%; left: 0; top: 0; transform: translateX(0); }
+    .main_idx #main .main_text_img .vol { margin-top: 10px; margin-right: 7px; }
+    .main_idx #main .main_text_img img { width: 100%; }
+
+    .main_idx #main .special_story { right: 5px; top: 100%; transform: translateY(-120%); display: flex; flex-direction: column; align-items: flex-end; }
+    .main_idx #main .special_story .text { margin: 17px 12px 0 0; }
+    .main_idx #main .special_story .img_box { margin-top: 0; }
+    .main_idx #main .special_story .img_box img { width: 100%; }
+}
+
+/* web03 */
+.web03 #main { width: 100%; }
+.web03 #main #cover { width: 100%; height: 573px; position: relative; }
+.web03 #main #cover .outer_box { width: 100%; background: url(../images/web03/cover_outer.png) no-repeat; background-size: cover; background-position: center; }
+.web03 #main #cover .cover_img_box { width: 100%; max-width: 1200px; margin: 0 auto; }
+.web03 #main #cover .cover_img_box img { width: 100%; }
+.web03 #main #cover .cover_text { width: 100%; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
+.web03 #main #cover .cover_text .text { font-weight: 500; font-size: 32px; line-height: 42px; letter-spacing: -0.02em; color: #fff; }
+.web03 #main #cover .cover_text .img_box { display: flex; justify-content: center; margin: 9px auto 10px; }
+.web03 #main #cover .cover_text .title { font-weight: 500; font-size: 19px; line-height: 29px; color: #f56400; }
+
+.web03 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
+
+.web03 #main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
+.web03 #main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
+.web03 #main .container .fix_btns .btns .share { padding: 10px 17px; }
+.web03 #main .container .fix_btns .btns .top { padding: 12px 15px; }
+
+.web03 #main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
+.web03 #main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #f56400; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #f56400; }
+.web03 #main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #f56400; }
+
+.web03 #main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; }
+
+.web03 #main .container .content .grid_box { display: flex; }
+.web03 #main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #f56400; }
+.web03 #main .container .content .grid_box .conts { width: 100%; max-width: 860px; }
+.web03 #main .container .content .grid_box .conts p { font-weight: 400; font-size: 18px; line-height: 28px; }
+
+.web03 #main .container .content .section01 .grid_box .conts .img_box { margin: 30px 0; }
+.web03 #main .container .content .section02 .grid_box .conts .img_box { margin-top: 30px; }
+.web03 #main .container .content .section03 .grid_box .conts .img_box { margin-top: 30px; }
+.web03 #main .container .content .section04 .grid_box .conts .img_box { margin-top: 30px; }
+
+.web03 #main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
+
+.web03 #main .page_bottom { width: 100%; border-top: 1px solid #000; }
+.web03 #main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
+.web03 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
+.web03 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
+.web03 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
+
+@media only all and (max-width: 767px) {
     
     /* main */
-    #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
-    #main .container .fix_btns .btns div { width: 21px; height: 21px; }
-    #main .container .fix_btns .btns div img { width: 11px; }
-    #main .container .fix_btns .btns .share { padding: 3px 5px; }
-    #main .container .fix_btns .btns .top { padding: 5px; }
+    .web03 #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
+    .web03 #main .container .fix_btns .btns div { width: 21px; height: 21px; }
+    .web03 #main .container .fix_btns .btns div img { width: 11px; }
+    .web03 #main .container .fix_btns .btns .share { padding: 3px 5px; }
+    .web03 #main .container .fix_btns .btns .top { padding: 5px; }
 
-    #main { width: 100%; }
-    #main #cover { height: 211px; }
-    #main #cover .outer_box { width: 100%; background: none; }
-    #main #cover .cover_text .text { font-size: 18px; line-height: 28px; }
-    #main #cover .cover_text .img_box { margin: 5px auto 0; }
-    #main #cover .cover_text .title { font-size: 12px; line-height: 22px; color: #f56400; }
+    .web03 #main { width: 100%; }
+    .web03 #main #cover { height: 211px; }
+    .web03 #main #cover .outer_box { width: 100%; background: none; }
+    .web03 #main #cover .cover_text .text { font-size: 18px; line-height: 28px; }
+    .web03 #main #cover .cover_text .img_box { margin: 5px auto 0; }
+    .web03 #main #cover .cover_text .title { font-size: 12px; line-height: 22px; color: #f56400; }
 
-    #main .container .intro { margin: 5px auto 80px; gap: 80px; justify-content: center; align-items: center; }
-    #main .container .intro .writer_info { width: fit-content; flex-direction: column; gap: 0; padding: 5px 20px; font-size: 8px; line-height: 18px; }
-    #main .container .intro .intro_text { font-size: 12px; line-height: 22px; }
+    .web03 #main .container .intro { margin: 5px auto 80px; gap: 80px; justify-content: center; align-items: center; }
+    .web03 #main .container .intro .writer_info { width: fit-content; flex-direction: column; gap: 0; padding: 5px 20px; font-size: 8px; line-height: 18px; }
+    .web03 #main .container .intro .intro_text { font-size: 12px; line-height: 22px; }
 
-    #main .container .content { gap: 80px; }
-    #main .container .content .grid_box { flex-direction: column; gap: 10px; }
-    #main .container .content .grid_box .side { font-weight: 500; font-size: 12px; line-height: 22px; text-align: center; }
-    #main .container .content .grid_box .conts p { font-weight: 300; font-size: 12px; line-height: 22px; }
-    #main .container .content .grid_box .conts .img_box img { width: 100%; }
+    .web03 #main .container .content { gap: 80px; }
+    .web03 #main .container .content .grid_box { flex-direction: column; gap: 10px; }
+    .web03 #main .container .content .grid_box .side { font-weight: 500; font-size: 12px; line-height: 22px; text-align: center; }
+    .web03 #main .container .content .grid_box .conts p { font-weight: 300; font-size: 12px; line-height: 22px; }
+    .web03 #main .container .content .grid_box .conts .img_box img { width: 100%; }
 
-    #main .container .content .section01 .grid_box .conts .img_box { margin: 10px 0 120px; }
-    #main .container .content .section02 .grid_box .conts .img_box { margin-top: 10px; }
-    #main .container .content .section03 .grid_box .conts .img_box { margin-top: 10px; }
-    #main .container .content .section04 .grid_box .conts .img_box { margin-top: 10px; }
+    .web03 #main .container .content .section01 .grid_box .conts .img_box { margin: 10px 0 120px; }
+    .web03 #main .container .content .section02 .grid_box .conts .img_box { margin-top: 10px; }
+    .web03 #main .container .content .section03 .grid_box .conts .img_box { margin-top: 10px; }
+    .web03 #main .container .content .section04 .grid_box .conts .img_box { margin-top: 10px; }
 
-    #main .container .bottom_text img { width: 100%; }
+    .web03 #main .container .bottom_text img { width: 100%; }
 
-    #main .container .page_btns { height: 33px; gap: 81px; }
-    #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
-    #main .container .page_btns div a span img { width: 11px; height: 15px; }
-    #main .container .page_btns .prev a span { margin-right: 15px; }
-    #main .container .page_btns .next a span { margin-left: 15px; }
+    .web03 #main .container .page_btns { height: 33px; gap: 81px; }
+    .web03 #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
+    .web03 #main .container .page_btns div a span img { width: 11px; height: 15px; }
+    .web03 #main .container .page_btns .prev a span { margin-right: 15px; }
+    .web03 #main .container .page_btns .next a span { margin-left: 15px; }
 }
+
+/* web04 */
+.web04 #main { width: 100%; }
+.web04 #main #cover { width: 100%; height: 573px; position: relative; }
+.web04 #main #cover .outer_box { width: 100%; background: url(../images/web04/web04_00-outer.png) no-repeat; background-size: cover; background-position: center; }
+.web04 #main #cover .cover_img_box { width: 100%; max-width: 1200px; margin: 0 auto; }
+.web04 #main #cover .cover_img_box img { width: 100%; }
+.web04 #main #cover .cover_text { width: 100%; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
+.web04 #main #cover .cover_text .text { font-weight: 500; font-size: 32px; line-height: 42px; letter-spacing: -0.02em; color: #fff; }
+.web04 #main #cover .cover_text .img_box { display: flex; justify-content: center; margin: 9px auto 10px; }
+.web04 #main #cover .cover_text .title { font-weight: 500; font-size: 19px; line-height: 29px; color: #128bf5; }
+
+.web04 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
+
+.web04 #main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
+.web04 #main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
+.web04 #main .container .fix_btns .btns .share { padding: 10px 17px; }
+.web04 #main .container .fix_btns .btns .top { padding: 12px 15px; }
+
+.web04 #main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
+.web04 #main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #128bf5; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #128bf5; }
+.web04 #main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #128bf5; }
+
+.web04 #main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; margin-bottom: 281px; }
+
+.web04 #main .container .content .grid_box { display: flex; }
+.web04 #main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #128bf5; }
+.web04 #main .container .content .grid_box .conts { width: 100%; max-width: 860px; }
+.web04 #main .container .content .grid_box .conts p { font-weight: 400; font-size: 18px; line-height: 28px; }
+
+.web04 #main .container .content .grid_box .conts .img_box { margin: 30px 0; }
+
+.web04 #main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
+
+.web04 #main .page_bottom { width: 100%; border-top: 1px solid #000; }
+.web04 #main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
+.web04 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
+.web04 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
+.web04 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
