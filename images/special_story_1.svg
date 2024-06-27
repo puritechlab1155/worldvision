@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 267.17 227.82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Roustel-Regular, Roustel;
+        font-size: 71.21px;
+        opacity: .8;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Pretendard-ExtraBold, Pretendard;
+        font-size: 12.24px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <text class="cls-1" transform="translate(22.96 140.91) rotate(-21.31)"><tspan x="0" y="0">Special </tspan><tspan x="0" y="65.52" xml:space="preserve"> Story</tspan></text>
+    <text class="cls-2" transform="translate(21.6 42.37)"><tspan x="0" y="0">아이들의 미소를 지켜주는 사람 </tspan><tspan x="0" y="17.35">이상엽홍보대사</tspan></text>
+  </g>
+</svg>

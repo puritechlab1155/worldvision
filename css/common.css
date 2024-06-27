@@ -75,6 +75,15 @@
     src: url(../fonts/Pretendard-Black.woff2) format('woff2');
 }
 
+@font-face {
+    font-family: 'MYRIADPRO-BOLDCOND';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/MYRIADPRO-BOLD.OTF) format('opentype');
+    src: url(../fonts/MYRIADPRO-BOLD.woff) format('woff');
+    src: url(../fonts/MYRIADPRO-BOLD.woff2) format('woff2');
+}
+
 
 
 /* .pc { display: block; }
