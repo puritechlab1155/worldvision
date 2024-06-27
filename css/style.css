@@ -181,8 +181,6 @@
 .web03 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
 
 @media only all and (max-width: 767px) {
-    
-    /* main */
     .web03 #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
     .web03 #main .container .fix_btns .btns div { width: 21px; height: 21px; }
     .web03 #main .container .fix_btns .btns div img { width: 11px; }
@@ -206,6 +204,7 @@
     .web03 #main .container .content .grid_box .conts p { font-weight: 300; font-size: 12px; line-height: 22px; }
     .web03 #main .container .content .grid_box .conts .img_box img { width: 100%; }
 
+    .web03 #main .container .content .grid_box .conts .img_box { padding: 0 25px; }
     .web03 #main .container .content .section01 .grid_box .conts .img_box { margin: 10px 0 120px; }
     .web03 #main .container .content .section02 .grid_box .conts .img_box { margin-top: 10px; }
     .web03 #main .container .content .section03 .grid_box .conts .img_box { margin-top: 10px; }
@@ -228,6 +227,7 @@
 .web04 #main #cover .cover_img_box img { width: 100%; }
 .web04 #main #cover .cover_text { width: 100%; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); text-align: center; font-family: "Noto Sans KR", sans-serif; }
 .web04 #main #cover .cover_text .text { font-weight: 500; font-size: 32px; line-height: 42px; letter-spacing: -0.02em; color: #fff; }
+.web04 #main #cover .cover_text .text span { display: block; font-size: 14px; line-height: 24px; }
 .web04 #main #cover .cover_text .img_box { display: flex; justify-content: center; margin: 9px auto 10px; }
 .web04 #main #cover .cover_text .title { font-weight: 500; font-size: 19px; line-height: 29px; color: #128bf5; }
 
@@ -258,3 +258,39 @@
 .web04 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
 .web04 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
 .web04 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
+
+@media only all and (max-width: 767px) {
+    .web04 #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
+    .web04 #main .container .fix_btns .btns div { width: 21px; height: 21px; }
+    .web04 #main .container .fix_btns .btns div img { width: 11px; }
+    .web04 #main .container .fix_btns .btns .share { padding: 3px 5px; }
+    .web04 #main .container .fix_btns .btns .top { padding: 5px; }
+
+    .web04 #main { width: 100%; }
+    .web04 #main #cover { height: 211px; }
+    .web04 #main #cover .outer_box { width: 100%; background: none; }
+    .web04 #main #cover .cover_text .text { font-size: 18px; line-height: 28px; }
+    .web04 #main #cover .cover_text .text span { font-size: 8px; line-height: 18px; }
+    .web04 #main #cover .cover_text .img_box { margin: 5px auto 0; }
+    .web04 #main #cover .cover_text .title { font-size: 12px; line-height: 22px; }
+
+    .web04 #main .container .intro { margin: 5px auto 80px; gap: 80px; justify-content: center; align-items: center; }
+    .web04 #main .container .intro .writer_info { width: fit-content; flex-direction: column; gap: 0; padding: 5px 20px; font-size: 8px; line-height: 18px; }
+    .web04 #main .container .intro .intro_text { font-size: 12px; line-height: 22px; }
+
+    .web04 #main .container .content { gap: 80px; margin-bottom: 234px; }
+    .web04 #main .container .content .grid_box { flex-direction: column; gap: 10px; }
+    .web04 #main .container .content .grid_box .side { font-weight: 500; font-size: 12px; line-height: 22px; text-align: center; }
+    .web04 #main .container .content .grid_box .conts p { font-weight: 300; font-size: 12px; line-height: 22px; }
+    .web04 #main .container .content .grid_box .conts .img_box img { width: 100%; }
+
+    .web04 #main .container .content .grid_box .conts .img_box { margin: 10px 0; padding: 0 25px; }
+
+    .web04 #main .container .bottom_text img { width: 100%; }
+
+    .web04 #main .container .page_btns { height: 33px; gap: 81px; }
+    .web04 #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
+    .web04 #main .container .page_btns div a span img { width: 11px; height: 15px; }
+    .web04 #main .container .page_btns .prev a span { margin-right: 15px; }
+    .web04 #main .container .page_btns .next a span { margin-left: 15px; }
+}
