@@ -23,12 +23,10 @@
 .main_idx #main #vid_cover #video_box { 
     position: relative;
     width: 100%; 
-    height:auto; 
-    margin: 0;
     height: 0;
-    padding-bottom: 50.25%; /* 16:9 비율에 따라서 */
+    padding-bottom: 35.9%; /* 16:9 비율에 따라서 */
     overflow: hidden;
-}
+} 
 
 .main_idx #main #vid_cover #video_box iframe{
     position: absolute;
@@ -170,8 +168,9 @@ height: 750px;
     .main_idx #main #vid_cover #video_box { 
         position: relative;
         width: 100%; 
-        height: 1100px; 
-        margin: 0;
+        height: 0;
+        padding-bottom: 200.9%; /* 16:9 비율에 따라서 */
+        overflow: hidden;
     }
     
     .main_idx #main #vid_cover #video_box iframe{
@@ -182,6 +181,7 @@ height: 750px;
         height: 100%;
         border: none;
     }
+
     /* .main_idx #main #vid_cover #video_box iframe{
         text-align: center;
     width: 120%;
