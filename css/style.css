@@ -111,8 +111,7 @@
 
     .main_idx #main #vid_cover #video_box.pc { display: none; }
 
-    /* .main_idx #main #vid_cover #video_box.mobile { display: block; } */
-    .main_idx #main #vid_cover #video_box.mobile { width: 100%; display: block; }
+    .main_idx #main #vid_cover #video_box.mobile { display: block; }
     /* .main_idx #main #vid_cover #video_box video { object-fit: fill; } */
     .main_idx #main #vid_cover #video_box.mobile video { height: 1366px; object-fit: fill;}
 
