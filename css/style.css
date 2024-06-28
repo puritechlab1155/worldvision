@@ -18,7 +18,8 @@
 /* video */
 .main_idx #main { width: 100%; }
 .main_idx #main #vid_cover { width: 100vw; position: relative; }
-.main_idx #main #vid_cover #video_box { width: 100vw; }
+/* .main_idx #main #vid_cover #video_box { width: 100vw; } */
+.main_idx #main #vid_cover #video_box { width: 100%; }
 .main_idx #main #vid_cover #video_box.mobile { display: none; }
 .main_idx #main #vid_cover #video_box video { width: 100%; height: 100%; }
 .main_idx #main #vid_cover .bg_black { width: 100%; height: 50px; background: linear-gradient(to top, transparent 5%, rgba(0, 0, 0, 0.5)); position: absolute; left: 0; top: 0; }
@@ -105,9 +106,11 @@
     #head_sec .inner_head .logo_box h1 img { height: 21px; }
     #head_sec .inner_head #menu .menu_btn { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
 
-    .main_idx #main #vid_cover #video_box { height: calc(100vh - 44px); }
+    /* .main_idx #main #vid_cover #video_box { height: calc(100vh - 44px); } */
+    .main_idx #main #vid_cover #video_box { height: auto; }
     .main_idx #main #vid_cover #video_box.pc { display: none; }
-    .main_idx #main #vid_cover #video_box.mobile { display: block; }
+    /* .main_idx #main #vid_cover #video_box.mobile { display: block; } */
+    .main_idx #main #vid_cover #video_box#myVideo{ width: 100%;  height: auto; display: block; }
     .main_idx #main #vid_cover #video_box video { object-fit: fill; }
 
     .main_idx #main #vid_cover .container .page_move { left: 20px; }
@@ -136,7 +139,7 @@
     .main_idx #main .main_text_img .vol { margin-top: 10px; margin-right: 7px; }
     .main_idx #main .main_text_img img { width: 100%; }
 
-    .main_idx #main .special_story { right: 5px; top: 130%; transform: translateY(-120%); display: flex; flex-direction: column; align-items: flex-end; }
+    .main_idx #main .special_story { right: 5px; top: 100%; transform: translateY(-120%); display: flex; flex-direction: column; align-items: flex-end; }
     .main_idx #main .special_story .text { margin: 17px 12px 0 0; }
     .main_idx #main .special_story .img_box { margin-top: 0; }
     .main_idx #main .special_story .img_box img { width: 100%; }
