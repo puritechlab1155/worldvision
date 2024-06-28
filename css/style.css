@@ -112,8 +112,7 @@
     .main_idx #main #vid_cover #video_box.pc { display: none; }
 
     .main_idx #main #vid_cover #video_box.mobile { display: block; }
-    /* .main_idx #main #vid_cover #video_box video { object-fit: fill; } */
-    .main_idx #main #vid_cover #video_box.mobile video { height: 1366px; object-fit: fill;}
+    .main_idx #main #vid_cover #video_box video { object-fit: fill; }
 
     .main_idx #main #vid_cover .container .page_move { left: 20px; }
     .main_idx #main #vid_cover .container .page_move a { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
