@@ -107,7 +107,7 @@
     #head_sec .inner_head #menu .menu_btn { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
 
     /* .main_idx #main #vid_cover #video_box { height: calc(100vh - 44px); } */
-    .main_idx #main #vid_cover #video_box { height: auto; display: block;}
+    .main_idx #main #vid_cover #video_box { height: auto; }
     .main_idx #main #vid_cover #video_box.pc { display: none; }
     .main_idx #main #vid_cover #video_box.mobile { display: block; }
 
