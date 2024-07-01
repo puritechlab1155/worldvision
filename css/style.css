@@ -156,6 +156,9 @@
     #headSec .innerHead #menu .menuBtn { width: auto; height: 24px; font-weight: 500; font-size: 12px; line-height: 22px; padding: 1px 7px; }
 
     /* .main_idx #main #vid_cover #video_box { height: calc(100vh - 44px); } */
+    
+    .main_idx #main #vid_cover { padding-bottom: 0;}
+
     .main_idx #main #vid_cover #video_box { height: auto; }
     .main_idx #main #vid_cover #video_box.pc { display: none; }
     .main_idx #main #vid_cover #video_box.mobile { display: block; }
