@@ -190,7 +190,6 @@
         padding: 10px;
         color: #fff;
         bottom: 0;
-        right: -30px;
         z-index: 1000;
     }
     .main_idx #main #video_box.mobile .special_story { right: 5px; top: 100%; transform: translateY(-110%); display: flex; flex-direction: column; align-items: flex-end; }
