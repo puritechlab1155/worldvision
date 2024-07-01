@@ -229,11 +229,6 @@ height: 750px;
 
 .web03 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
 
-.web03 #main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
-.web03 #main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
-.web03 #main .container .fix_btns .btns .share { padding: 10px 17px; }
-.web03 #main .container .fix_btns .btns .top { padding: 12px 15px; }
-
 .web03 #main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
 .web03 #main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #f56400; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #f56400; }
 .web03 #main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #f56400; }
@@ -252,19 +247,7 @@ height: 750px;
 
 .web03 #main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
 
-.web03 #main .page_bottom { width: 100%; border-top: 1px solid #000; }
-.web03 #main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
-.web03 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
-.web03 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
-.web03 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
-
 @media only all and (max-width: 767px) {
-    .web03 #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
-    .web03 #main .container .fix_btns .btns div { width: 21px; height: 21px; }
-    .web03 #main .container .fix_btns .btns div img { width: 11px; }
-    .web03 #main .container .fix_btns .btns .share { padding: 3px 5px; }
-    .web03 #main .container .fix_btns .btns .top { padding: 5px; }
-
     .web03 #main { width: 100%; }
     .web03 #main #cover { height: 211px; }
     .web03 #main #cover .outer_box { width: 100%; background: none; }
@@ -289,12 +272,6 @@ height: 750px;
     .web03 #main .container .content .section04 .grid_box .conts .img_box { margin-top: 10px; }
 
     .web03 #main .container .bottom_text img { width: 100%; }
-
-    .web03 #main .container .page_btns { height: 33px; gap: 81px; }
-    .web03 #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
-    .web03 #main .container .page_btns div a span img { width: 11px; height: 15px; }
-    .web03 #main .container .page_btns .prev a span { margin-right: 15px; }
-    .web03 #main .container .page_btns .next a span { margin-left: 15px; }
 }
 
 /* web04 */
@@ -311,16 +288,11 @@ height: 750px;
 
 .web04 #main .container { max-width: 1240px; width: 100%; padding: 0 20px; margin: 0 auto; }
 
-.web04 #main .container .fix_btns .btns { position: fixed; right: 18.5%; bottom: 17px; display: flex; flex-direction: column; gap: 34px; }
-.web04 #main .container .fix_btns .btns div { background: #000; width: 68px; height: 68px; border-radius: 50%; cursor: pointer; }
-.web04 #main .container .fix_btns .btns .share { padding: 10px 17px; }
-.web04 #main .container .fix_btns .btns .top { padding: 12px 15px; }
-
 .web04 #main .container .intro { margin: 15px auto 150px; display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; }
 .web04 #main .container .intro .writer_info { width: 100%; border-radius: 30px; text-align: center; display: flex; gap: 20px; justify-content: center; border: 1px solid #128bf5; padding: 8px 0; font-weight: 500; font-size: 12px; line-height: 22px; letter-spacing: -0.02em; color: #128bf5; }
 .web04 #main .container .intro .intro_text { text-align: center; font-weight: 500; font-size: 19px; line-height: 29px; letter-spacing: -0.02em; color: #128bf5; }
 
-.web04 #main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; margin-bottom: 281px; }
+.web04 #main .container .content { display: flex; flex-direction: column; gap: 150px; font-family: "Noto Sans KR", sans-serif; letter-spacing: -0.02em; margin-bottom: 107px; }
 
 .web04 #main .container .content .grid_box { display: flex; }
 .web04 #main .container .content .grid_box .side { flex-grow: 1; font-weight: 700; font-size: 18px; line-height: 28px; color: #128bf5; }
@@ -329,21 +301,7 @@ height: 750px;
 
 .web04 #main .container .content .grid_box .conts .img_box { margin: 30px 0; }
 
-.web04 #main .container .bottom_text { text-align: center; margin: 150px auto 182px; }
-
-.web04 #main .page_bottom { width: 100%; border-top: 1px solid #000; }
-.web04 #main .container .page_btns { display: flex; height: 103px; justify-content: center; gap: 188px; margin: 0 auto; align-items: center; }
-.web04 #main .container .page_btns div a { font-family: "Noto Sans KR", sans-serif; font-weight: 500; font-size: 18px; line-height: 28px; letter-spacing: -0.02em; vertical-align: middle; }
-.web04 #main .container .page_btns .prev a span { display: inline-block; margin-right: 20px; }
-.web04 #main .container .page_btns .next a span { display: inline-block; margin-left: 20px; }
-
 @media only all and (max-width: 767px) {
-    .web04 #main .container .fix_btns .btns { right: 20px; bottom: 6px; gap: 12px; }
-    .web04 #main .container .fix_btns .btns div { width: 21px; height: 21px; }
-    .web04 #main .container .fix_btns .btns div img { width: 11px; }
-    .web04 #main .container .fix_btns .btns .share { padding: 3px 5px; }
-    .web04 #main .container .fix_btns .btns .top { padding: 5px; }
-
     .web04 #main { width: 100%; }
     .web04 #main #cover { height: 211px; }
     .web04 #main #cover .outer_box { width: 100%; background: none; }
@@ -363,12 +321,4 @@ height: 750px;
     .web04 #main .container .content .grid_box .conts .img_box img { width: 100%; }
 
     .web04 #main .container .content .grid_box .conts .img_box { margin: 10px 0; padding: 0 25px; }
-
-    .web04 #main .container .bottom_text img { width: 100%; }
-
-    .web04 #main .container .page_btns { height: 33px; gap: 81px; }
-    .web04 #main .container .page_btns div a { font-weight: 400; font-size: 12px; line-height: 15px; }
-    .web04 #main .container .page_btns div a span img { width: 11px; height: 15px; }
-    .web04 #main .container .page_btns .prev a span { margin-right: 15px; }
-    .web04 #main .container .page_btns .next a span { margin-left: 15px; }
 }
